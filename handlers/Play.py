@@ -98,7 +98,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **ғɪɴᴅɪɴɢ ᴛʜᴇ sᴏɴɢ 🅰︎ʟᴇxᴀ 🅼︎ᴜsɪᴄ 🅱︎ᴏᴛ...**")
+    lel = await message.reply("🔎 **ғɪɴᴅɪɴɢ ᴛʜᴇ sᴏɴɢ 🅰︎ristrocrax 🅼︎ᴜsɪᴄ 🅱︎ᴏᴛ...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
